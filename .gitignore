@@ -1,0 +1,35 @@
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local secrets - keep .env.example tracked
+.env
+.env.local
+**/.env
+**/.env.local
+!.env.example
+
+# Frontend build & dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-error.log*
+
+# Local model weights (auto-downloaded at startup, too large for Git)
+backend/models/
+models/
+
+# OS & logs
+.DS_Store
+Thumbs.db
+*.log
