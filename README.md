@@ -291,21 +291,3 @@ QA 和面试的 SSE 接口直连 `http://localhost:8000`，不经过 Vite proxy�
 **Q: 试卷批改一直显示"AI 批改中"**
 
 批改为后台异步任务，刷新页面可获取最新状态。若超过 15 分钟未完成，记录将自动标记为 `failed`，可重新提交。
-
----
-
-## 
-
-
-
-生成 HTML 讲义：
-
-```bash
-# 在 docs/ 目录下执行
-mkdocs serve   # 本地预览（:8080）
-mkdocs build   # 输出静态 HTML 到 site/
-```
-
----
-
-
